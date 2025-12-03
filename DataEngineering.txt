@@ -1,0 +1,19 @@
+Postgres, MySQL, MongoDB, Cassandra, ClickHouse, Snowflake, Amazon Redshift, S3, GCS, Azure Blob
+•	Data lake / lakehouse: Delta Lake, Apache Hudi, Iceberg.
+•	Big data processing: Apache Spark, Hadoop (MapReduce, HDFS).
+•	Streaming & messaging: Apache Kafka, Pulsar, RabbitMQ, Kinesis.
+•	ETL / orchestration: Apache Airflow, Prefect, Dagster, Luigi.
+•	Data ingestion: Flink, Kafka Connect, NiFi.
+•	Feature stores: Feast, Tecton, Hopsworks.
+•	Data catalog & governance: Amundsen, DataHub, Great Expectations (validation), OpenLineage.
+•	Data pipeline deployment: Kubernetes, Docker, Helm.
+
+Python Tech:
+	web app space
+		Flask, Django, FastAPI, Pydantic, uvicorn
+
+
+	AI Space
+		LLM, RAG, LanChain, GAN, MCP
+		
+			

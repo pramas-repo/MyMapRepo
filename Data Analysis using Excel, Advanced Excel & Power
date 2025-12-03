@@ -1,0 +1,231 @@
+Data Analysis using Excel, Advanced Excel & Power BI
+Duration: 40 Hours (40 Days × 1 Hour), Fees : 700 per student
+Mode: Classroom / Online / Hybrid
+________________________________________
+Module 1: Excel Basics 
+•	Introduction to Data Analysis & Excel Overview
+•	Entering, Editing & Formatting Data
+•	Sorting & Filtering Data
+•	Basic Formulas (SUM, AVERAGE, COUNT)
+•	Conditional Formatting & Data Cleaning
+•	Hands-on Practice (Mini Project 1 – Clean & Analyze Student Data)
+Module 2: Excel Functions 
+•	Text Functions (LEFT, RIGHT, MID, TRIM, CONCAT)
+•	Date Functions (TODAY, NOW, DATEDIF, EOMONTH)
+•	Logical Functions (IF, Nested IF, IFS)
+•	Lookup Functions – VLOOKUP & HLOOKUP
+•	INDEX + MATCH, XLOOKUP
+•	Hands-on Practice (Mini Project 2 – Employee Age & Salary Lookup)
+Module 3: Advanced Excel 
+•	Data Validation (Drop-downs, Error Messages)
+•	Advanced Functions (SUMIFS, COUNTIFS, AVERAGEIFS)
+•	INDIRECT, OFFSET Functions
+•	Introduction to Pivot Tables
+•	Pivot Charts, Slicers & Timelines
+•	Hands-on Practice (Mini Project 3 – Sales Analysis with Pivot Tables)
+Module 4: Power Query & Dashboards 
+•	Introduction to Power Query in Excel
+•	Importing & Cleaning Data with Power Query
+•	Data Visualization – Charts (Bar, Line, Pie, Combo)
+•	Building an Interactive Excel Dashboard
+Module 5: Power BI Basics 
+•	Power BI Desktop Overview
+•	Importing Data into Power BI
+•	Data Modeling & Relationships
+•	Power BI Visualizations (Bar, Line, Pie, Maps, Cards)
+Module 6: Power BI Advanced 
+•	Filters, Slicers, Drill-through, Bookmarks
+•	Introduction to DAX (Measures vs Columns)
+•	KPIs with DAX (Total Sales, Profit Margin %, Growth)
+Module 7: Capstone Project 
+•	End-to-End Data Analysis Project:
+o	Import Data with Power Query
+o	Clean & Transform Data
+o	Analyze with Pivot Tables in Excel
+o	Build Dashboards in Excel + Power BI
+•	Final Presentation & Q&A
+Student Deliverables
+•	Daily hands-on practice files
+•	3 Mini Projects (Excel cleaning, Lookup-based analysis, Pivot analysis)
+•	1 Final Capstone Project (Excel + Power BI Dashboard)
+•	LinkedIn and GitHub Profiles
+•	Course Completion Certificate
+
+ 
+R Programming with Data Analysis
+Duration: 40 Hours (40 Days × 1 Hour) Fees : 700 per student
+Mode: Classroom / Online / Hybrid
+________________________________________
+Module 1: Introduction to R & RStudio
+•	Overview of R & RStudio (IDE)
+•	Installing packages & managing libraries
+•	Understanding R syntax & operators
+•	Data types in R (numeric, character, factor, logical)
+•	Vectors, Lists, Matrices, Data Frames
+•	Hands-on Practice (Mini Project 1 – Student Marks Data Exploration)
+Module 2: Data Manipulation in R
+•	Importing data (CSV, Excel, Web, Database)
+•	Exploring datasets (head, tail, summary, str)
+•	Data Cleaning – handling missing values, duplicates, outliers
+•	Subsetting data with indexing & conditions
+•	Merging, Joining, and Binding datasets
+•	Hands-on Practice (Mini Project 2 – Employee Salary Dataset Cleaning)
+Module 3: R Functions & Programming Basics
+•	Writing user-defined functions
+•	Conditional statements (if, else, ifelse)
+•	Loops (for, while, repeat)
+•	Apply family functions (apply, lapply, sapply, tapply)
+•	Introduction to dplyr for data manipulation (filter, select, mutate, summarise, group_by)
+•	Hands-on Practice (Mini Project 3 – Sales Transactions Aggregation)
+Module 4: Data Visualization in R
+•	Base R plotting (plot, hist, boxplot, barplot)
+•	Customizing plots (colors, labels, themes)
+•	Introduction to ggplot2
+•	ggplot basics: aesthetics, geoms, facets
+•	Building different charts: bar, line, scatter, histogram, density, boxplot
+•	Hands-on Practice (Mini Project 4 – Visualize Student Performance)
+Module 5: Exploratory Data Analysis (EDA)
+•	Descriptive statistics (mean, median, mode, sd, var, quantile)
+•	Correlation & covariance
+•	Crosstabs & frequency tables
+•	Outlier detection (IQR, z-scores)
+•	Feature transformation (log, scaling, normalization)
+•	Hands-on Practice (Mini Project 5 – EDA on Titanic Dataset)
+Module 6: Introduction to Statistical Analysis in R
+•	Probability distributions (normal, binomial, Poisson)
+•	Hypothesis testing (t-test, chi-square, ANOVA)
+•	Correlation & regression basics
+•	Simple & multiple linear regression
+•	Logistic regression (intro)
+•	Hands-on Practice (Mini Project 6 – Predicting Exam Pass/Fail)
+Module 7: Capstone Project
+End-to-End Data Analysis Project:
+•	Import dataset into R
+•	Clean & preprocess data using dplyr
+•	Perform exploratory data analysis
+•	Apply statistical models
+•	Create meaningful visualizations with ggplot2
+•	Present insights in an R Markdown / Shiny dashboard
+Student Deliverables
+•	Daily hands-on R scripts
+•	5 Mini Projects (Data Cleaning, Aggregation, Visualization, EDA, Statistical Analysis)
+•	1 Final Capstone Project (Full Data Analysis Workflow in R)
+•	LinkedIn and GitHub Profiles, Course Completion Certificate
+Python Data Analysis
+Duration: 40 Hours (40 Days × 1 Hour) Fees : 700 per student
+Mode: Classroom / Online / Hybrid
+________________________________________
+Module 1: Python Basics for Data Analysis
+•	Introduction to Python & Jupyter Notebook
+•	Python syntax, variables & data types
+•	Lists, Tuples, Sets, Dictionaries
+•	Conditional statements & loops
+•	Functions & lambda functions
+•	Hands-on Practice (Mini Project 1 – Student Marks Data Exploration)
+Module 2: Working with Data in Python
+•	Importing datasets (CSV, Excel, SQL, JSON) with pandas
+•	Exploring data: head, tail, info, describe
+•	Data cleaning: missing values, duplicates, outliers
+•	Data selection & indexing (loc, iloc)
+•	Sorting, filtering, grouping (groupby)
+•	Hands-on Practice (Mini Project 2 – Employee Salary Dataset Cleaning)
+Module 3: Data Manipulation with Pandas & Numpy
+•	Introduction to NumPy arrays
+•	Array operations & broadcasting
+•	Aggregations & descriptive statistics
+•	Vectorized operations for speed
+•	Merging, joining, concatenating datasets with pandas
+•	Pivot tables in pandas
+•	Hands-on Practice (Mini Project 3 – Sales Transactions Aggregation)
+Module 4: Data Visualization in Python
+•	Introduction to Matplotlib (line, bar, pie, histogram, scatter)
+•	Customizing plots (labels, titles, colors, legends)
+•	Introduction to Seaborn for statistical plots
+•	Heatmaps, pairplots, boxplots, violin plots
+•	Styling plots (themes, grids, annotations)
+•	Hands-on Practice (Mini Project 4 – Visualizing Student Performance)
+Module 5: Exploratory Data Analysis (EDA)
+•	Descriptive statistics with pandas & NumPy
+•	Correlation, covariance, cross-tabulation
+•	Feature scaling & transformations (log, normalization, standardization)
+•	Outlier detection (IQR, Z-score)
+•	Hands-on Practice (Mini Project 5 – EDA on Titanic Dataset)
+Module 6: Introduction to Statistics & Machine Learning in Python
+•	Probability distributions with SciPy
+•	Hypothesis testing (t-test, chi-square, ANOVA)
+•	Linear regression with scikit-learn
+•	Logistic regression basics
+•	Model evaluation metrics (accuracy, precision, recall, F1, ROC-AUC)
+•	Hands-on Practice (Mini Project 6 – Predicting Exam Pass/Fail)
+Module 7: Capstone Project
+End-to-End Data Analysis Project using Python
+•	Import dataset with pandas
+•	Clean & preprocess data
+•	Perform exploratory data analysis
+•	Visualize with Matplotlib & Seaborn
+•	Apply basic ML model (regression/classification)
+•	Present insights in Jupyter Notebook
+Student Deliverables
+•	Daily Python scripts & notebooks
+•	5 Mini Projects (Data Cleaning, Aggregation, Visualization, EDA, Statistical Analysis)
+•	1 Final Capstone Project (Full Data Analysis Workflow in Python)
+•	LinkedIn and GitHub Profiles
+•	Course Completion Certificate 
+Python Machine Learning
+Duration: 40 Hours (40 Days × 1 Hour) Fees : 700 per student
+Mode: Classroom / Online / Hybrid
+________________________________________
+Module 1: Introduction to Machine Learning
+•	What is Machine Learning? Types (Supervised, Unsupervised, Reinforcement)
+•	ML workflow: data → features → model → evaluation
+•	Introduction to scikit-learn
+•	Splitting data: train/test sets (train_test_split)
+•	Hands-on Practice (Mini Project 1 – Predicting Student Pass/Fail with Logistic Regression)
+Module 2: Data Preprocessing for ML
+•	Handling missing values (mean, median, mode, KNN imputation)
+•	Encoding categorical variables (Label, One-Hot Encoding)
+•	Feature scaling (Normalization, Standardization, MinMax)
+•	Train/test split, cross-validation basics
+•	Hands-on Practice (Mini Project 2 – Preprocessing Titanic Dataset)
+Module 3: Supervised Learning – Classification Models
+•	Logistic Regression
+•	Decision Trees
+•	Random Forest Classifier
+•	Support Vector Machines (SVM)
+•	K-Nearest Neighbors (KNN)
+•	Model evaluation: accuracy, precision, recall, F1-score, ROC-AUC
+•	Hands-on Practice (Mini Project 3 – Predicting Loan Approval)
+Module 4: Supervised Learning – Regression Models
+•	Linear Regression (simple & multiple)
+•	Polynomial Regression
+•	Decision Tree Regressor
+•	Random Forest Regressor
+•	Evaluation metrics: MAE, MSE, RMSE, R² score
+•	Hands-on Practice (Mini Project 4 – Predicting House Prices)
+Module 5: Unsupervised Learning
+•	K-Means Clustering
+•	Hierarchical Clustering
+•	Principal Component Analysis (PCA)
+•	Dimensionality reduction & visualization
+•	Hands-on Practice (Mini Project 5 – Customer Segmentation)
+Module 6: Model Optimization & Advanced Topics
+•	Bias-variance trade-off
+•	Cross-validation & GridSearchCV
+•	Feature importance & selection
+•	Ensemble methods: Bagging, Boosting (AdaBoost, Gradient Boosting, XGBoost intro)
+•	Introduction to Neural Networks (MLPClassifier, MLPRegressor)
+•	Hands-on Practice (Mini Project 6 – Credit Card Fraud Detection)
+Module 7: Capstone Project
+End-to-End Machine Learning Project using Python
+•	Import & preprocess dataset
+•	Apply EDA & feature engineering
+•	Train multiple ML models
+•	Compare performance with metrics & visualizations
+•	Select best model & finalize pipeline
+•	Present insights in Jupyter Notebook
+Student Deliverables
+•	Daily Jupyter Notebooks with ML exercises
+•	6 Mini Projects (Classification, Regression, Clustering, PCA, Ensemble, Fraud Detection)
+•	1 Capstone ML Project (End-to-End Model Development & Evaluation)
+•	LinkedIn and GitHub Profiles
+•	Course Completion Certificate

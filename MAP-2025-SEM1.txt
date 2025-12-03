@@ -1,0 +1,1226 @@
+
+Managament Analytics Program
+
+Sem 1
+
+A. Data Analysis using Excel, Advanced Excel & Power BI (40 hrs)
+
+Module 1: Intro to Data Analysis and Excel Basics *****
+Module 2: Excel Functions *****
+Module 3: Advanced Excel *****
+------- Session on using Git and Github -----------
+Module 4: Power Query & Dashboards 
+Module 5: Power BI Basics 
+Module 6: Power BI Advanced (DAX) Data Analysis eXpressions
+Module 7: Capstone Project (end of course project)
+
+Module 1: MS Excel Basics 
+
+a. Introduction to Data Analysis & Excel Overview
+b. Entering, Editing & Formatting Data in Excel
+c. Sorting & Filtering Data in Excel
+d. Basic Formulas (SUM, AVERAGE, COUNT)
+e. Conditional Formatting & Data Cleaning (Not Yet Done)
+f. Hands-on Practice (Mini Project 1 – Analyze Student Data)
+
+a. Introduction to Data Analysis & Excel Overview
+
+i. Data Analysis :
+
+Data Analysis is the systematic and meticulous process of observing or inspecting data, cleansing or cleaning of data, transforming data, and modeling data to uncover and reveal useful information, draw conclusions, and support informed decision-making. 
+
+It is a critical component of data science in helping businesses and researchers translate raw numbers into actionable insights which finally helps in improving business, increasing profits, enhancing effeciciencies and attaining business goals with business intelligence.
+
+ii. Data Analysis Process :
+
+The process of data analysis is typically iterative or repeatative and involves several important stages:
+
+a. Define Objectives: Clearly state the problem you are trying to solve or the specific questions the data needs to answer. This sets the scope and direction for the entire analysis.
+
+b. Data Collection: Gather the relevant data from various sources like databases, excel spreadsheets, data surveys, or create your own data.
+
+c. Data Cleaning/Wrangling: This is often the most time-consuming step. It involves preparing the data by:
+
+	Handling missing values (e.g., deleting records or imputing data).
+
+	Removing duplicates.
+
+	Correcting inconsistencies and errors (e.g., misspelled categories or incorrect formats).
+
+	Standardizing and transforming data to a usable format.
+
+d. Data Analysis: Apply analytical and statistical techniques to the cleaned data to find patterns, relationships, and trends. This step includes:
+
+	Four Types of Data Analysis
+
+	A. Descriptive Analysis: Summarizing what happened (e.g., calculating mean, median, mode, or charting frequency). Understanding of data.
+
+	B. Diagnostic Analysis: Determining why it happened (e.g., using correlation or regression). Determine the data.
+
+	C. Predictive Analysis: Forecasting what might happen next (e.g., using trend analysis). Forecasting or future prediction. 
+
+	D. Prescriptive Analysis: Recommending a course of action. Taking action.
+
+Description, Diagnosis, Prediction, Prescription
+
+e. Interpretation and Visualization: Translate the analytical results into meaningful insights and Data visualization by drawing charts, graphs, and dashboards which are essential to make complex data easy to understand for non-technical audiences and management staff.
+
+f. Communication: Present the findings and conclusions in a clear, convincing narrative often called data storytelling to guide decision-making. Generally done by preparing powerpoint show.
+
+Data Objectives, Data Collection, Data Cleaning, Data Analysis, Interpretion and Visualization, Communication 
+
+- Data Analysis Cycle
+
+
+iii. MS Excel for Data Analysis :
+
+Microsoft Excel is one of the most widely used tools for initial and intermediate data analysis due to its accessibility, grid-based structure, and powerful built-in features.
+
+Key features of Excel :
+
+- Built-in functions and formulas
+
+- Visualization tools (charts, conditional formatting)
+
+- Pivot tables and data cleaning options
+
+Excel Interface Overview :
+
+Workbook – A file containing multiple worksheets.
+
+Worksheet – A grid of rows and columns where data is entered.
+
+Cell – The intersection of a row and column (e.g., A1).
+
+Ribbon - Rhe top level menus of Excel
+
+
+b. Entering, Editing & Formatting Data 
+
+1. Enter data into a worksheet
+
+2. Edit data using F2 key
+
+3. Format Data 
+   1. SpreadSheet heading
+   2. Column name alignment - left, center, right
+   3. Data alignment - left, center, right
+   4. Column names with bold, italic, underline
+   5. Auto-complete numeric series using CTRL-Mouseclick and mouse drag
+   6. Adding Table to the spreadsheet
+   7. Inserting row and column in the sheet
+
+c. Sorting & Filtering Data
+
+Sorting lets you rearrange your data (like student names, marks, or ages) in ascending or descending order for easier analysis.
+
+Filtering a column in Excel helps you quickly view only the rows that meet certain conditions — for example, showing only students with a percentage above 80%.   
+
+Add a condition in number filter.
+
+Use Ctrl + Shift + L to quickly toggle filters on/off.
+
+Filters don’t delete data — they just hide the rows that don’t match your conditions.
+
+d. Basic Formulas (SUM, AVERAGE, COUNT)
+
+- Each formula in excel starts with a = sign
+
+
+sum() function makes a sum of all data in a column ex. =sum(e4:e13)
+
+average() function calculated average of a column  ex. =average(e4:e13)
+
+count() funcrion colunts the no of values in a column ex. =count(e54:e13)
+
+- Similarly any math expression can be written using = sign
+
+e. Conditional Formatting & Data Cleaning
+
+Conditional Formatting helps highlight cells based on specific conditions or rules 
+
+— making data patterns easier to spot visually.
+
+Common Use-Cases:
+
+Highlight top or low scores
+
+Show duplicates
+
+Color-code based on performance or value range
+
+Examples:
+Example 1: Highlight percentages above 75%
+
+Select the column with percentages (e.g., D2:D11).
+
+Go to Home → Conditional Formatting → Highlight Cells Rules → Greater Than…
+
+Enter 75 → Choose a green fill → Click OK
+
+Now, all students scoring above 75% will be highlighted in green.
+
+Example 2: Color scale for performance
+
+Select the percentage column
+
+Go to Home → Conditional Formatting → Color Scales → Green-Yellow-Red
+
+Green = High values
+
+Red = Low values
+
+Instantly visualize student performance range.
+
+Example 3: Highlight duplicate names
+
+Select the Name column.
+
+Click Home → Conditional Formatting → Highlight Cells Rules → Duplicate Values
+
+Pick a color → Click OK.
+
+Duplicate student names (if any) will be highlighted.
+
+2. Data Cleaning in Excel
+
+Data cleaning ensures accuracy by removing or correcting inconsistencies before analysis.
+
+Steps to Clean Data:
+Step 1: Remove extra spaces
+
+Select the name column (e.g., B2:B11).
+
+Use the TRIM formula:
+
+=TRIM(B2)
+
+This removes unwanted spaces before/after text.
+
+Step 2: Remove duplicates
+
+Select your dataset (A1:D11).
+
+Go to Data → Remove Duplicates.
+
+Choose the columns to check (e.g., Roll No or Name).
+
+Click OK → Excel removes duplicate rows automatically.
+
+Step 3: Handle missing data
+
+If some cells are blank:
+
+You can use Filter → Blanks to find them.
+
+Or replace with “Not Available” using:
+Home → Find & Select → Replace → Replace All
+
+Step 4: Correct data types
+
+Ensure numeric columns (like Age or Percentage) are formatted as Number and not Text.
+→ Select the column → Home → Number group → Change format to “Number”
+
+
+Recap of Module 1 : Excel Basics
+
+1. Introduction Data Analysis
+2. Introduction to Excel
+3. Excel Basics
+	- workbook, worksheet, cell, ribbon
+   - creating worksheet with column heading and rows
+   - creating and formatting sheet heading
+   - Formatting data in sheet - bold, italic, underline (left, right, center)
+   - auto generating numeric range with mouse click and mouse drag
+   - inserting rows and columns in worksheet
+4. Sorting and filtering data in worksheet
+5. Basic formulas in Excel sum(), average(), count()
+6. Conditional formatting of columns in sprteadsheet
+
+Module 2: Excel Functions
+
+- Excel Functions are pre-built formulas that help you perform calculations, transform data, clean data, and automate analysis quickly and accurately. Functions save tremendous time, eliminate manual errors, and make your data analysis efficient and professional.
+
+- There are 6 categories of excel functions.
+
+b. Text Functions
+c. Number or Numeric Functions
+d. Date & Time Functions
+e. Logical Functions (IF, AND, OR)
+f. Lookup Functions (VLOOKUP, HLOOKUP, XLOOKUP ***) - Most Important
+g. Statistical Functions - Most Important
+
+
+Structure of a function:
+=FUNCTION_NAME(arguments)
+
+
+Example:
+
+=SUM(A1:A10)
+
+
+Excel functions help in:
+
+1. Data cleaning
+
+2. Data Calculations
+
+3. Creating reports
+
+4. Automating repetitive tasks
+
+5. Data lookup and transformation
+
+b. Text Functions in Excel
+
+Text functions are used to clean and transform text data such as names, categories, codes, etc.
+
+1. UPPER()
+
+Converts text to uppercase
+Example:
+=UPPER("excel") → EXCEL
+
+2. LOWER()
+
+Converts text to lowercase
+=LOWER("DATA") → data
+
+3. PROPER()
+
+Capitalizes each word
+=PROPER("prakash patil") → Prakash Patil
+
+4. CONCAT() / CONCATENATE()
+
+Joins text from multiple cells
+=CONCATENATE(A2," ",B2) → joins first and last name
+
+5. LEFT(), RIGHT(), MID()
+
+Extract characters from text
+
+LEFT(A1, 3) → First 3 letters
+
+RIGHT(A1, 2) → Last 2 letters
+
+MID(A1, 2, 3) → 3 characters starting from position 2
+
+6. LEN()
+
+Counts characters
+=LEN(A2)
+
+7. TRIM()
+
+Removes extra spaces
+=TRIM(" Shrikant ") → "Shrikant"
+
+8. FIND()
+
+Find position of text inside another text
+=FIND("a", c4) → 2
+
+## c. Number Functions in Excel
+1. SUM()
+
+Adds numbers
+=SUM(C2:C12)
+
+2. AVERAGE()
+
+Calculates average
+=AVERAGE(C2:C12)
+
+3. MAX(), MIN()
+
+Find highest/lowest value
+=MAX(C2:C12)
+=MIN(C2:C12)
+
+
+4. ROUND(), ROUNDUP(), ROUNDDOWN()
+
+ROUND(A2, 1) → round to 1 decimal
+
+ROUNDUP(A2, 0) → always round up
+
+ROUNDDOWN(A2, 0) → always round down
+
+5. COUNT(), COUNTA(), COUNTIF()
+
+COUNT = counts numbers
+
+COUNTA = counts text + numbers
+
+COUNTIF = counts values matching a condition
+Example:
+=COUNTIF(C2:C12, ">75")
+=COUNTIFS(C4:C14,">60",C4:C14,">70")
+
+d. Date & Time Functions
+1. TODAY()
+
+Returns today’s date
+=TODAY()
+
+2. NOW()
+
+Returns current date + time
+=NOW()
+
+3. DATE(year, month, day)
+
+=DATE(2025, 11, 16)
+
+4. DATEDIF()
+
+Calculate difference between dates
+Example: Age calculation
+=DATEDIF(B2, TODAY(), "Y")
+
+5. DAY(), MONTH(), YEAR()
+
+Extract day, month, year
+=MONTH(A2) → 11
+
+## e. Logical Functions (IF, AND, OR)
+
+1. IF()
+
+Makes decisions
+
+=IF(C2>=75,"Pass","Fail")
+
+2. AND()
+
+Checks multiple conditions
+
+=AND(C2>70, D2="Yes")
+
+3. OR()
+
+True if any condition is true
+
+=OR(A2="HR", A2="Finance")
+
+Nested IF Example
+=IF(C2>=80,"A Grade", IF(C2>=60,"B Grade","C Grade"))
+
+## f. Lookup Functions (MOST IMPORTANT)
+
+Vlookup(), hlookup(), xlookup()
+
+1. VLOOKUP()
+
+Searches some data in excel, vertically or column-wise in a range of cells.
+
+=VLOOKUP(B5, B5:D14, 3, FALSE)
+
+B5: This is the lookup_value. It's the specific value you want to find, in this case, a cell containing an student rollno.
+
+B5:D14: This is the table_array. It's the range of cells where the lookup will take place. The VLOOKUP will only search within the first column of this range.
+
+3: This is the col_index_num. It specifies which column in the table_array contains the value you want to return. Here, it's the third column.
+
+FALSE: This is the range_lookup argument. FALSE (or 0) tells the function to find an exact match for the lookup_value
+
+2. HLOOKUP()
+
+Searches some data in excel, horizontally or row-wise in a range of cells.
+
+
+To use HLOOKUP, data must be arranged horizontally, like this:
+
+Get Name of Roll No = 1
+
+=HLOOKUP(colno, K4:N7, 2, FALSE)
+
+Get Age of Roll No = 3
+
+=HLOOKUP(3, K4:N7, 3, FALSE)
+
+
+## g. Statistical Functions (MOST IMPORTANT)
+
+- Mean, median, and mode are measures of central tendency or basic aspects that help describe the characteristics of a data set. They provide useful insights into the data by identifying its average value (mean), middle value (median), and most frequent value 
+(mode).
+
+1. AVERAGE()
+
+Average of a set of data
+=AVERAGE(C2:C12)
+
+2. MEDIAN()
+
+Middle value
+=MEDIAN(C2:C12)
+
+3. MODE()
+
+Most repeated value
+=MODE(C2:C12)
+
+3. STDEV()
+
+Standard deviation
+
+=STDEV(C2:C12)
+
+Dataset:
+10, 12, 15, 18, 20
+
+
+In statistics, the standard deviation is a measure of the amount of variation of the values of a variable about its mean. A low standard deviation indicates that the values tend to be close to the mean of the set, while a high standard deviation indicates that the values are spread out over a wider range.
+
+Steps of calculating Std Dev
+
+Setp 1 : Arrange the data in ascending order (Not Imp)
+
+10, 12, 15, 18, 20 (n = 5)
+
+Setp 2 : Find the mean of from the data
+
+mean = 15
+
+Step 3 : Summation of data 
+
+sum = (10-15)**2 + (12-15)**2 + (15-15)**2 + (18-15)**2 + (20-15)**2
+
+Setp 4 : Find average of average by dividing sum by total no of terms
+
+avg = sum / n-1
+
+avg = sum / 4
+
+Step 5 : Find the Square root 
+
+stdev = sqrt(avg)
+
+stdev = sqrt(((10-15)**2 + (12-15)**2 + (15-15)**2 + (18-15)**2 + (20-15)**2)) / 5)
+
+3. VAR()
+Variance
+=STDEV(C2:C12)
+
+Variance tells you how much the data values vary from the mean.
+
+Low variance → data points are close to the mean
+
+High variance → data points are spread out widely
+
+Dataset:
+10, 12, 15, 18, 20
+
+Formula
+=VAR(C2:C12)
+
+Steps (Conceptually):
+
+Calculate mean:
+(10 + 12 + 15 + 18 + 20) / 5 = 15
+
+Find squared difference from mean:
+
+(10 - 15)² = 25
+
+(12 - 15)² = 9
+
+(15 - 15)² = 0
+
+(18 - 15)² = 9
+
+(20 - 15)² = 25
+
+Sum = 68
+
+Divide sum by (n – 1):
+68 / 4 = 17
+
+
+=VAR(C2:C12)
+
+
+Module 3: Advanced Excel 
+
+a. Data Validation (Drop-downs, Error Messages)
+b. Advanced Functions (SUMIFS, COUNTIFS, AVERAGEIFS) - Imp Functions
+c. Excel graphs and charts
+d. Introduction to Pivot Tables 
+f. Pivot Charts, Slicers & Timelines ****
+
+
+a. Data Validation
+
+- Data valiodation prevents the incorrect data entered into excel sheet or any cell of an sheet.
+
+age : 200 - invalid data out of range (0 to 100)
+age : abcd - invalid data
+
+Data Validation helps control what users can enter in a cell.
+Common use cases: drop-downs, date limits, number limits, custom rules, error messages.
+
+1. Creating a Drop-down List
+
+- The drop down list prevent data errors in a sheet
+
+- The drop down list contain predefined values and user can selectgn onny from the list
+
+Steps:
+
+Select the cell → Go to Data tab → Data Validation
+
+Allow → List
+
+In "Source": type:
+
+Pending, Approved, Rejected
+
+
+OR
+select a range: A2:A5
+
+Now your cell has a drop-down.
+
+2. Adding Input Message
+
+Used to guide the user.
+
+Example:
+
+Title: Enter Status
+
+Message: Choose from drop-down only.
+
+This appears when the user clicks the cell.
+
+3. Adding Error Alert
+
+Prevents incorrect data entry.
+
+Example:
+
+Title: Invalid Entry
+
+Message: Only values from the drop-down are allowed.
+
+Choose Style:
+
+Stop → blocks incorrect entry
+
+Warning → asks before accepting
+
+Information → notifies only
+
+b. Advanced Functions (SUMIFS, COUNTIFS, AVERAGEIFS)
+
+- Thhese function are very useful in data analysis and manupulating data from large sheets
+
+These are multi-condition functions used for filtered analysis.
+
+1. SUMIFS() – Sum with Multiple Conditions
+
+Problem : Sum the total sales for "Printer" in the "East" region.
+
+=SUMIFS(F6:F11, C6:C11, "Printer", G6:G11, "East")
+
+a. first column for total sales
+b. second column for product list
+c. item name whose total to sum
+d. third column for region
+e. region name for the product sum
+
+2. COUNTIFS() – Count with Multiple Conditions
+
+Problem : Count how many Printers were sold in the East region.
+
+=COUNTIFS(c6:c11, "Printer", g6:g11, "East")
+
+a. first column for the product names
+b. product name to count
+c. second olumn for region names
+d. region name
+
+
+3. AVERAGEIFS() – Average with Multiple Conditions
+
+Problem : Calculate average sales of Shampoo in North region.
+
+=AVERAGEIFS(F6:F11, C6:C11, "Printer", G6:G11, "East")
+
+
+a. first column for total sales
+b. second column for product list
+c. item name whose total to sum
+d. third column for region
+e. region name for the product sum
+
+c. Excel graphs and charts
+
+Excel charts are used to transform raw data into meaningful visual insights. They help identify trends, patterns, comparisons, and distributions easily.
+
+This guide covers the most important graphs used in reporting, dashboards, and data analysis.
+
+1. Column Chart (Vertical Bars)
+
+Best for: Comparing values across categories.
+
+2. Bar Chart (Horizontal Bars)
+
+Best for: Long category names; comparing many categories.
+
+Example
+
+Product-wise sales:
+
+Shampoo: 5000
+
+Soap: 9000
+
+Facewash: 3000
+
+Lotion: 7000
+
+3. Line Chart
+
+Best for: Showing trends over time.
+
+Example: Monthly Website Visitors
+
+Month	Visitors
+Jan	10,000
+Feb	12,500
+Mar	14,000
+Apr   15,000
+
+Line chart shows growth trend clearly.
+
+4. Pie Chart
+
+Best for: Showing parts of a whole (percentages).
+
+Example: Market Share of OTT platform
+Brand	Market Share (%)
+
+Ott            Share
+Netflix			40%
+Amazon Prime	35%
+Hotstar 			25%
+
+Pie chart shows size of each slice (A > B > C).
+
+5. Doughnut Chart
+
+A circular version of a Pie chart, but can show multiple categories.
+
+Example:
+
+Expense distribution:
+
+Rent: 35%
+
+Groceries: 25%
+
+Travel: 15%
+
+Other: 25%
+
+Looks modern and useful in dashboards.
+
+6. Area Chart
+
+Best for: Showing cumulative total over time.
+
+Example
+
+Revenue over years:
+
+Year	Revenue
+2020	15,00,000
+2021	17,50,000
+2022	19,00,000
+
+Area chart visualizes not just growth but volume.
+
+Column Chart, Bar Chart, Line Chart, Pie Chart, Doughnut Chart, Area Chart
+
+
+7. Scatter Plot (XY Chart)
+
+- Scatter plot is very import graph where the data values are related as X and Y.
+
+- It show relationship between two variables.
+
+Best for: Showing relationship between two numeric variables.
+
+Example
+
+Study: Hours spent vs Exam score
+
+Hours	Score
+1	40
+2	55
+3	65
+4	75
+5	85
+
+Scatter chart helps find the correlation.
+
+Column graph, Bar Graph, Line Graph, Pie Graph, Doughnut Graph, Area Graph and Scatter Plot
+
+d. Introduction to Pivot Tables 
+
+What is a Pivot Table in Excel?
+
+- Some times the data in excel sheet is of very large volume
+
+A Pivot Table is one of Excel’s most powerful tools used to:
+
+	Summarize large datasets or large number rows (may be in 100's and 1000's)
+
+	Analyze trends or Trend Analysis
+
+	Group and reorganize data
+
+	Create quick reports
+
+	Generate charts automatically from summarized data
+
+It allows you to drag & drop fields to view data in different angles without changing the original dataset.
+
+Why Use Pivot Tables?
+
+Feature	Description
+
+1. Summarization	: Sum, average, count, min, max.
+
+2. Grouping :	Group dates (months, quarters), numbers, or categories.
+
+3. Filtering :	Focus on specific categories/data ranges.
+
+4. Comparisons :	Compare totals across multiple categories.
+
+5. Fast analysis : Convert raw data into insights in seconds.
+
+Key Components of a Pivot Table
+
+Component			Description
+
+Rows					Categories (e.g., Product, Region, Date)
+Columns				Variables to compare (e.g., Month, Gender)
+Values				Calculations (SUM, COUNT, AVERAGE)
+Filters				Filter the entire Pivot Table based on criteria
+
+Rows, Columns, Values and Filters.
+
+CASE STUDY No 1 : Sales Data Analysis Using Pivot Table
+
+Dataset Example
+
+| Date       | Product  | Category    | Region | Quantity | Price | Total Sales |
+| ---------- | -------- | ----------- | ------ | -------- | ----- | ----------- |
+| 2025-01-06 | Mouse    | Accessories | West   | 8        | 500   | 4000        |
+| 2025-01-07 | Laptop   | Electronics | South  | 4        | 50000 | 200000      |
+| 2025-01-08 | Monitor  | Electronics | North  | 3        | 12000 | 36000       |
+| 2025-01-09 | Keyboard | Accessories | East   | 7        | 1000  | 7000        |
+| 2025-01-10 | Mouse    | Accessories | South  | 12       | 500   | 6000        |
+| 2025-01-11 | Laptop   | Electronics | North  | 1        | 50000 | 50000       |
+| 2025-01-12 | Monitor  | Electronics | West   | 4        | 12000 | 48000       |
+| 2025-01-13 | Keyboard | Accessories | North  | 5        | 1000  | 5000        |
+| 2025-01-14 | Laptop   | Electronics | East   | 2        | 50000 | 100000      |
+| 2025-01-15 | Mouse    | Accessories | East   | 9        | 500   | 4500        |
+
+
+Pivot Table 1: Total Sales by Product
+
+Steps:
+
+Select the dataset
+
+Go to Insert → Pivot Table
+
+Add:
+
+Rows: Product
+
+Values: Sum of Total Sales
+
+Result:
+
+Product	Total Sales
+Laptop	250000
+Monitor	60000
+Mouse	5000
+Keyboard	6000
+
+Graph Suggestion: Bar Chart
+
+X-axis → Product
+
+Y-axis → Total Sales
+
+Shows which product earned the highest revenue
+
+Insight: Laptops generate the highest revenue.
+
+Pivot Table 2: Sales by Region
+
+Steps:
+
+Rows: Region
+
+Values: Sum of Total Sales
+
+Result:
+Region	Total Sales
+East	210000
+West	100000
+North	5000
+South	6000
+
+Graph Suggestion: Pie Chart
+
+A pie chart clearly shows which region contributes most to sales.
+
+Insight: Eastern region contributes the highest sales.
+
+Pivot Table 3: Category-wise Monthly Sales
+
+Steps:
+
+Rows: Month (Group Dates → Months)
+
+Columns: Category
+
+Values: Sum of Total Sales
+
+Example Table:
+
+Month	Electronics	Accessories	Grand Total
+Jan	310000	11000	321000
+Feb	220000	14000	234000
+
+Graph Suggestion: Clustered Column Chart
+
+Shows monthly performance of each category.
+
+Pivot Table 4: Quantity Sold by Category and Region
+Steps:
+
+Rows: Category
+
+Columns: Region
+
+Values: Sum of Quantity
+
+Example:
+Category	East	West	North	South
+Electronics	8	2	0	0
+Accessories	0	0	10	6
+
+Graph Suggestion: Stacked Bar Chart
+Additional Features Explained
+Pivot Chart
+
+A graphical representation of Pivot Table data.
+Updates automatically when Pivot Table changes.
+
+Slicers
+
+Buttons that filter Pivot Table data visually.
+Useful for:
+
+Category
+
+Region
+
+Month
+
+Timeline
+
+Filters Pivot Table based on dates:
+
+Months
+
+Quarters
+
+Years
+
+Final Summary
+
+A Pivot Table helps you:
+
+Summarize thousands of rows instantly
+
+Gain insights from data
+
+Create dynamic reports
+
+Use drag-and-drop analysis
+
+Build charts automatically
+
+Using Pivot Tables, you can easily turn raw data into meaningful business insights.
+
+Module 4: Power Query & Dashboards 
+
+Power Query & Dashboards – Detailed Notes
+
+A. Power Query
+
+Definition: A data connection technology in Excel used to discover, connect, combine, and refine data across sources.
+
+To install Power Query download it from 
+
+https://www.microsoft.com/en-us/download/details.aspx?id=39379
+
+Also install Microsoft Office 2010 service pack 1
+
+https://www.techspot.com/downloads/downloadnow/4423/?evp=e5de2676c6b7342cba53f20ecfb3c73a&file=4632
+
+Key Features:
+
+1. Import data from multiple sources (Excel, CSV, databases, web, SharePoint)
+
+2. Transform data (cleaning, filtering, merging, splitting, pivot/unpivot)
+
+3. Automate repetitive tasks with queries
+
+4. Refresh data easily without redoing steps
+
+Workflow:
+
+Load Data → Import from source
+
+Transform Data → Apply steps (remove duplicates, change types, merge tables)
+
+Load to Excel/Power BI → Output clean dataset
+
+Benefits:
+
+Saves time by automating ETL (Extract, Transform, Load)
+
+Handles large datasets efficiently
+
+Provides reproducible steps (query history)
+
+B. Dashboards in Excel
+
+Definition: A visual interface that displays KPIs, metrics, and data summaries in charts, tables, and visuals for decision-making.
+
+Key Components:
+
+1. Charts (bar, line, pie, combo)
+
+2. PivotTables & PivotCharts
+
+3. Slicers & Timelines (for interactivity)
+
+4. Conditional Formatting
+
+5. Linked Power Query datasets
+
+Best Practices:
+
+1. Keep design clean and uncluttered
+
+2. Use consistent colors and fonts
+
+3. Highlight key metrics (KPIs)
+
+4. Add interactivity (filters, slicers)
+
+5. Ensure data refresh is automated via Power Query
+
+Workflow:
+
+Prepare Data → Clean using Power Query
+
+Create PivotTables/Charts → Summarize data
+
+Add Interactivity → Slicers, timelines
+
+Design Layout → Arrange visuals logically
+
+Automate Refresh → Connect dashboard to queries
+
+Suggested Excel Table Layout
+
+
+Example Scenario
+
+You have two datasets:
+
+Sales Data (CSV file) → contains Date, Product, Region, Sales
+
+Product Info (Excel table) → contains Product ID, Product Name, Category
+
+You want to:
+
+Clean and merge the data using Power Query
+
+Build a Dashboard showing sales trends, top products, and regional performance
+
+Step 1: Import Data with Power Query
+
+Go to Data → Get Data → From File → From Workbook/CSV.
+
+Load both datasets into Power Query.
+
+In Power Query Editor:
+
+Rename columns for consistency.
+
+Change data types (e.g., Date column → Date type, Sales → Number).
+
+Remove duplicates if needed.
+
+Merge Queries: Join Sales Data with Product Info using Product ID.
+
+Add Calculated Columns (e.g., Profit = Sales × 0.2).
+
+Click Close & Load → Load to Excel as a table.
+
+Step 2: Build PivotTables
+
+Insert a PivotTable from the cleaned query output.
+
+Create multiple PivotTables:
+
+Sales by Region (Rows: Region, Values: Sales)
+
+Top Products (Rows: Product Name, Values: Sales, Sort Descending)
+
+Monthly Sales Trend (Rows: Date grouped by Month, Values: Sales)
+
+Step 3: Add Charts
+
+Insert PivotCharts:
+
+Bar chart for Top Products
+
+Line chart for Monthly Sales Trend
+
+Pie chart for Sales by Region
+
+Step 4: Add Interactivity
+
+Insert Slicers for:
+
+Region
+
+Product Category
+
+Date (Timeline)
+
+Connect slicers to all PivotTables so filters apply across the dashboard.
+
+Step 5: Design Dashboard
+
+Create a new sheet called Dashboard.
+
+Arrange charts and PivotTables neatly:
+
+Top row → KPIs (Total Sales, Avg Sales per Region, Top Product)
+
+Middle → Trend chart
+
+Bottom → Regional breakdown + product chart
+
+Add titles and consistent colors.
+
+Example Layout in Excel
+KPI	Value
+Total Sales	$1,250,000
+Top Product	Laptop
+Best Region	West
+Charts:
+
+Line chart → Monthly Sales Trend
+
+Bar chart → Top Products
+
+Pie chart → Regional Sales Share
+
+With this setup, whenever you refresh the Power Query, the dashboard updates automatically — no manual work needed.
+
+
+Example Dataset 1: Sales Data (CSV or Excel Table)
+Paste this into a sheet called SalesData:
+
+Date	Product ID	Region	Sales
+01-Jan-2024	P001	North	1200
+02-Jan-2024	P002	South	800
+03-Jan-2024	P003	East	950
+04-Jan-2024	P001	West	1100
+05-Jan-2024	P002	North	700
+06-Jan-2024	P003	South	650
+07-Jan-2024	P001	East	1300
+08-Jan-2024	P002	West	900
+09-Jan-2024	P003	North	1000
+10-Jan-2024	P001	South	1150
+
+Example Dataset 2: Product Info (Excel Table)
+Paste this into another sheet called ProductInfo:
+
+Product ID	Product Name	Category
+P001	Laptop	Electronics
+P002	Smartphone	Electronics
+P003	Printer	Office
+
+How to Use Power Query
+Go to Data → Get Data → From Table/Range for both sheets.
+
+In Power Query Editor:
+
+Ensure column types are correct (Date, Text, Number).
+
+Merge SalesData with ProductInfo using Product ID.
+
+Result: A combined table with Date, Region, Sales, Product Name, Category.
+
+Load the merged query back into Excel.
+
+Build Dashboard
+
+Insert a PivotTable from the merged query.
+
+Create visuals:
+
+Line Chart → Sales over time (Date vs Sales).
+
+Bar Chart → Top Products (Product Name vs Sales).
+
+Pie Chart → Regional Sales Share (Region vs Sales).
+
+Add Slicers for:
+
+Region
+
+Category
+
+Date (Timeline)
+
+Arrange charts neatly on a new sheet called Dashboard.
+
+📊 Example Dashboard Layout
+Top Row KPIs:
+
+Total Sales
+
+Best Region
+
+Top Product
+
+Middle Section:
+
+Line chart showing monthly sales trend
+
+Bottom Section:
+
+Bar chart for product performance
+
+Pie chart for regional share
+
+✨ With this dummy data, you’ll be able to practice importing, cleaning, merging, and visualizing — exactly how Power Query and Dashboards work together.
